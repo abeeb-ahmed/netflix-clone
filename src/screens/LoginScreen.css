@@ -73,6 +73,10 @@
 .loginScreen__inputContent {
   flex: 1;
 }
+.loginScreen__inputContent form input {
+  border-radius: 0;
+}
+
 .loginScreen__contents form .loginScreen__input {
   padding: 12px;
   width: 30%;
