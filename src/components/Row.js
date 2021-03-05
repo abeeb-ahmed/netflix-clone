@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import "./Row.css";
-import axios from "./axios";
+import axios from "../axios";
 
 const Row = ({ title, fetchUrl, isLarge = false }) => {
   const base_url = "https://image.tmdb.org/t/p/original/";
